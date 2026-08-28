@@ -1,0 +1,6 @@
+.git
+.gitignore
+node_modules
+dist
+backend/RojgarSetu.Api/bin
+backend/RojgarSetu.Api/obj
