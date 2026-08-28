@@ -7,5 +7,5 @@ export default defineConfig({
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
-  base: "/ROJGARSETU/",   // 👈 GitHub repo name
+  base: process.env.VERCEL ? '/' : (process.env.GITHUB_ACTIONS ? '/ROJGARSETU/' : '/'),
 })
